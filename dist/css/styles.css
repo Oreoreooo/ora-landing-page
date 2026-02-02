@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Landing Page v6.0.6 (https://startbootstrap.com/theme/landing-page)
-* Copyright 2013-2023 Start Bootstrap
+* Copyright 2013-2026 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
 */
 /*!
@@ -10841,7 +10841,7 @@ textarea.form-control-lg {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background: url("../assets/img/bg-masthead.gif") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -10855,6 +10855,10 @@ header.masthead:before {
   top: 0;
   left: 0;
   opacity: 0.5;
+}
+header.masthead h1, header.masthead .h1, header.masthead h2, header.masthead .h2 {
+  white-space: nowrap;
+  text-align: center;
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2rem;
